@@ -1,0 +1,221 @@
+*
+{
+    margin: 0;
+    box-sizing: border-box;
+}
+.dashBoard
+{
+    display: flex;
+    margin: 5px;
+    border: 20px none white;
+    background:linear-gradient(20deg,#0e92d8,#0e9);
+    align-content: space-around;
+    align-items: center;
+    justify-content: space-between;
+}
+.dropDown
+{
+    display:flex;
+    cursor: pointer;
+}
+details > summary
+{
+    list-style: none;
+}
+.searchBar
+{
+    width: auto;
+    display:flex;
+}
+.sBar
+{
+    border: 1.6px solid blue;
+    border-radius: 10px;
+}
+.sBar:placeholder-shown
+{
+    font-style: oblique;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.sBarButton
+{
+    display: flex;
+    border: 1.6px solid blue;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.sBarButton:hover
+{
+    outline: 2px outset red;
+    opacity: 0.5;
+}
+.userDetails
+{
+    display:flex;
+    align-items: flex-end;
+    align-content: space-between;
+    float: right;
+    cursor: pointer;
+}
+.userDetailsImage
+{
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.dashBoardLinks:focus
+{
+    border: 5px solid rgb(19, 197, 233);  
+    border-radius: 10px;
+}
+.dashBoardLinks:hover
+{
+    color: green;
+    font-size: bolder;
+    font-size: larger;
+    font-weight: bolder;
+}       
+.dashBoardLinks:active
+{
+    color: red;
+}
+main
+{
+    margin: 5px;
+    align-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+}
+.main
+{
+    display: flex;
+}
+.adds
+{
+    display: flex;   
+}
+iframe
+{
+    height:300px;
+}
+.endAdd
+{
+    display: flex;
+    float: right;
+}
+.contents
+{
+    text-align: justify;
+}
+.navigationTable
+{
+    align-items: center;
+    text-align: center;
+}
+.mainLinks
+{
+    cursor: pointer;
+    color: blue;
+}
+.mainLinks:hover
+{
+    color: green;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.mainLinks:focus
+{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.navigationTable
+{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+.innerFrame
+{
+    height: 600px;
+    width: 100%;
+}
+footer
+{
+    text-align: center;
+    word-wrap:break-word;
+    word-spacing: 5px; 
+    display: flex;
+    flex-direction: column;
+}
+.Otherlinks
+{
+    color: blue;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    text-decoration: underline;
+    text-decoration-color: yellow;
+}
+.Otherlinks1
+{
+    text-align: center; 
+    display: flex;
+    flex-direction: column;  
+    align-items: center;
+}
+.Otherlinks2
+{
+    border: 3px solid black;
+    color: chartreuse;
+    display: flex;
+    flex-direction: column;
+    border-collapse: collapse;
+    box-sizing: border-box;
+    border-spacing: 3px;
+}
+.row
+{
+    color: darkorange;
+}
+.Otherlinks3
+{
+    cursor: grab;
+    font-style:oblique;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+a:hover
+{
+    color: red;
+    opacity: 2;
+}
+a:active
+{
+    color: green;
+    font-weight: bolder;
+}
+.socialmedia
+{
+    color: rgba(26, 67, 161, 0.958);
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-decoration: underline;
+    text-decoration-color: yellow;
+}
+img
+{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+}
+.queries
+{
+    color: blue;
+    text-align: center;
+}

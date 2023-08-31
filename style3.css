@@ -1,0 +1,42 @@
+table
+{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column-reverse;
+    border: 0;
+}
+.navigationLinks
+{
+    text-decoration: none;
+    color: white;
+}
+.navigationLinks:hover
+{
+    font-weight: bolder;
+    font-style: oblique;
+    font-size: larger;
+    color:aqua;
+    opacity: 1;
+}
+ol
+{
+    padding-left: 20px;
+}
+figure
+{
+    margin-left:0;
+}
+li::marker
+{
+    color: gold;
+}
+.innerFrame
+{
+    height: 600px;
+    width: 100%;
+}
+a:hover
+{
+    opacity: 0.5;
+}
